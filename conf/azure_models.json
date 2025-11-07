@@ -44,5 +44,66 @@
       "intelligence_score": 10
     }
   ],
-  "models": []
+  "models": [
+    {
+      "model_name": "gpt-4o",
+      "deployment": "gpt-4o",
+      "aliases": ["azure-gpt4o", "az-gpt4o"],
+      "context_window": 128000,
+      "max_output_tokens": 16384,
+      "supports_extended_thinking": false,
+      "supports_json_mode": true,
+      "supports_function_calling": true,
+      "supports_images": true,
+      "max_image_size_mb": 20.0,
+      "supports_temperature": true,
+      "description": "GPT-4o via Azure (128K context) - Advanced reasoning and vision",
+      "intelligence_score": 18
+    },
+    {
+      "model_name": "gpt-4o-mini",
+      "deployment": "gpt-4o-mini",
+      "aliases": ["azure-gpt4o-mini", "az-mini"],
+      "context_window": 128000,
+      "max_output_tokens": 16384,
+      "supports_extended_thinking": false,
+      "supports_json_mode": true,
+      "supports_function_calling": true,
+      "supports_images": true,
+      "max_image_size_mb": 20.0,
+      "supports_temperature": true,
+      "description": "GPT-4o-mini via Azure (128K context) - Fast and efficient",
+      "intelligence_score": 14
+    },
+    {
+      "model_name": "gpt-35-turbo",
+      "deployment": "gpt-35-turbo",
+      "aliases": ["azure-gpt35", "az-gpt35"],
+      "context_window": 16384,
+      "max_output_tokens": 4096,
+      "supports_extended_thinking": false,
+      "supports_json_mode": true,
+      "supports_function_calling": true,
+      "supports_images": false,
+      "max_image_size_mb": 0.0,
+      "supports_temperature": true,
+      "description": "GPT-3.5-turbo via Azure (16K context) - Legacy model",
+      "intelligence_score": 10
+    },
+    {
+      "model_name": "gpt-4-turbo",
+      "deployment": "gpt-4-turbo",
+      "aliases": ["azure-gpt4-turbo", "az-gpt4turbo"],
+      "context_window": 128000,
+      "max_output_tokens": 4096,
+      "supports_extended_thinking": false,
+      "supports_json_mode": true,
+      "supports_function_calling": true,
+      "supports_images": true,
+      "max_image_size_mb": 20.0,
+      "supports_temperature": true,
+      "description": "GPT-4-turbo via Azure (128K context) - Advanced vision and reasoning",
+      "intelligence_score": 17
+    }
+  ]
 }
